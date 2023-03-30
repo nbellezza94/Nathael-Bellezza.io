@@ -1,0 +1,48 @@
+  @media (max-width: 425px) {
+      .videos {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: repeat(2, 1fr);
+          margin-top: 20rem;
+      }
+
+      main div .Video3 {
+          display: none;
+      }
+
+      main div .Video4 {
+          display: none;
+      }
+
+      .Video1 {
+          place-self: center;
+      }
+
+      .Video2 {
+          place-self: center;
+      }
+  }
+
+  @media (max-width: 425px) {
+      .fotos {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: 240px 1fr 240px 1fr;
+          max-width: 100%;
+      }
+
+  }
+
+  @media (max-width: 426px) {
+      .productos {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: repeat(4, 1fr);
+      }
+  }
+
+  @media (max-width: 426px) {
+      .formulario {
+          width: 75%;
+      }
+  }
