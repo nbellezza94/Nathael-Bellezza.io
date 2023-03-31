@@ -103,115 +103,89 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center; }
-
-.blogHome h2 {
-  font-family: 'Alumni Sans', sans-serif;
-  font-size: 60px;
-  font-weight: 400;
-  text-align: center;
-  color: whitesmoke; }
-
-.fotos {
-  padding: 5rem;
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(2, 1fr);
-  /* grid-template-areas:
-        "imagen1 ."
-        "desc-img1 ."
-    ; */
-  column-gap: 2%;
-  margin-bottom: 10rem; }
-
-@media (max-width: 425px) {
-  .fotos {
+  .blogHome h2 {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    color: whitesmoke; }
+  .blogHome .fotos {
+    padding: 5rem;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 240px 1fr 240px 1fr;
-    max-width: 100%; } }
-
-.imagen1 {
-  display: flex;
-  place-self: center end;
-  border-radius: 15%; }
-
-.imagen2 {
-  display: flex;
-  place-self: center end;
-  border-radius: 15%; }
-
-.desc-img1 {
-  place-self: center; }
-
-.desc-img2 {
-  place-self: center; }
-
-.fotos p {
-  font-family: 'Alumni Sans', sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  text-align: left;
-  color: whitesmoke;
-  text-shadow: -2px -2px 0px black;
-  padding: 2rem; }
-
-.fotos img {
-  width: 100%; }
-
-.storeHome h3 {
-  font-family: 'Alumni Sans', sans-serif;
-  font-size: 60px;
-  font-weight: 400;
-  text-align: center;
-  color: whitesmoke; }
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "imagen1 ." "desc-img1 .";
+    column-gap: 2%;
+    margin-bottom: 10rem; }
+    .blogHome .fotos .imagen1 {
+      display: flex;
+      place-self: center end;
+      border-radius: 15%; }
+    .blogHome .fotos .imagen2 {
+      display: flex;
+      place-self: center end;
+      border-radius: 15%; }
+    .blogHome .fotos .desc-img1 {
+      place-self: center; }
+    .blogHome .fotos .desc-img2 {
+      place-self: center; }
+    .blogHome .fotos p {
+      font-family: 'Alumni Sans', sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      text-align: left;
+      color: whitesmoke;
+      text-shadow: -2px -2px 0px black;
+      padding: 2rem; }
+    .blogHome .fotos img {
+      width: 100%; }
 
 .storeHome {
   position: relative;
   background-position: 50%;
   display: flex;
   flex-direction: column; }
-
-.productos {
-  margin-bottom: 10rem;
-  font-family: 'Alumni Sans', sans-serif;
-  font-size: 50px;
-  font-weight: 400;
-  margin-top: 15%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  place-items: center;
-  width: 100%; }
-
-.productos div figcaption a {
-  text-decoration: none;
-  list-style: none;
-  color: whitesmoke;
-  text-shadow: -2px -2px 0px black; }
-
-.productos img {
-  height: 15.6rem;
-  width: 15.6rem;
-  border-radius: 100%; }
-
-.item1 {
-  display: flex;
-  place-items: center;
-  flex-direction: column; }
-
-.item2 {
-  display: flex;
-  place-items: center;
-  flex-direction: column; }
-
-.item3 {
-  display: flex;
-  place-items: center;
-  flex-direction: column; }
-
-.item4 {
-  display: flex;
-  place-items: center;
-  flex-direction: column; }
+  .storeHome h3 {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    color: whitesmoke; }
+  .storeHome .productos {
+    margin-bottom: 10rem;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    width: 100%; }
+    .storeHome .productos .item1 {
+      display: flex;
+      place-items: center;
+      flex-direction: column; }
+    .storeHome .productos .item2 {
+      display: flex;
+      place-items: center;
+      flex-direction: column; }
+    .storeHome .productos .item3 {
+      display: flex;
+      place-items: center;
+      flex-direction: column; }
+    .storeHome .productos .item4 {
+      display: flex;
+      place-items: center;
+      flex-direction: column; }
+    .storeHome .productos div figcaption a {
+      text-decoration: none;
+      list-style: none;
+      color: whitesmoke;
+      text-shadow: -2px -2px 0px black; }
+    .storeHome .productos div img {
+      height: 15.6rem;
+      width: 15.6rem;
+      border-radius: 100%; }
 
 footer {
   background-color: rgba(99, 99, 99, 0.76);
