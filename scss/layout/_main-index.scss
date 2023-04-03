@@ -29,6 +29,7 @@
         object-position: 50% 0%;
         /* PARA VER COMO QUEDA    opacity: 0.85; */
         z-index: -1;
+    
     }
 
 
@@ -83,7 +84,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    .guitarra {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        max-width: none;
+        max-height: none;
+        object-fit: cover;
+        object-position: 50% 0%;
+        /* PARA VER COMO QUEDA    opacity: 0.85; */
+        z-index: -1;
+    
+    }
     h2 {
         font-family: 'Alumni Sans', sans-serif;
         font-size: 60px;
@@ -147,7 +165,24 @@
     background-position: 50%;
     display: flex;
     flex-direction: column;
-
+    .guitarra {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        max-width: none;
+        max-height: none;
+        object-fit: cover;
+        object-position: 50% 0%;
+        /* PARA VER COMO QUEDA    opacity: 0.85; */
+        z-index: -1;
+    
+    }
     h3 {
         font-family: 'Alumni Sans', sans-serif;
         font-size: 60px;

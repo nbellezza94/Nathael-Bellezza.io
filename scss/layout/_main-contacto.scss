@@ -1,0 +1,25 @@
+.contacto-principal {
+    background-image: url(/assets/img/fondo-contacto.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  
+}
+
+.main-contacto {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    .formulario {
+        min-width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+.footer-contacto {
+    margin-top: auto;
+}

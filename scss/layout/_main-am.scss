@@ -1,0 +1,24 @@
+.am-principal {
+    background-image: url(/assets/img/Fondo-AM.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.description {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        ". item1 .";
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
+    .history {
+        font-family: 'Alumni Sans', sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        grid-area: item1;
+        color: whitesmoke;
+    }
+}
+

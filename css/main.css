@@ -34,6 +34,54 @@ header {
     text-align: center;
     color: whitesmoke; }
 
+.am-principal {
+  background-image: url(/assets/img/Fondo-AM.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.description {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: ". item1 .";
+  margin-top: 5%;
+  text-align: center;
+  width: 100%; }
+  .description .history {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    grid-area: item1;
+    color: whitesmoke; }
+
+.blog-principal {
+  background-image: url(/assets/img/fondo-blog.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.contacto-principal {
+  background-image: url(/assets/img/fondo-contacto.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+.main-contacto {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem; }
+  .main-contacto .formulario {
+    min-width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+.footer-contacto {
+  margin-top: auto; }
+
 .principal {
   position: absolute;
   z-index: 1;
@@ -103,6 +151,22 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  .blogHome .guitarra {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    object-fit: cover;
+    object-position: 50% 0%;
+    /* PARA VER COMO QUEDA    opacity: 0.85; */
+    z-index: -1; }
   .blogHome h2 {
     font-family: 'Alumni Sans', sans-serif;
     font-size: 60px;
@@ -145,6 +209,22 @@ header {
   background-position: 50%;
   display: flex;
   flex-direction: column; }
+  .storeHome .guitarra {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    object-fit: cover;
+    object-position: 50% 0%;
+    /* PARA VER COMO QUEDA    opacity: 0.85; */
+    z-index: -1; }
   .storeHome h3 {
     font-family: 'Alumni Sans', sans-serif;
     font-size: 60px;
@@ -186,6 +266,35 @@ header {
       height: 15.6rem;
       width: 15.6rem;
       border-radius: 100%; }
+
+.store-principal {
+  background-image: url(/assets/img/Fondo-store-principal.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.productos-store {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  place-items: center;
+  width: 100%; }
+  .productos-store img {
+    height: 15.6rem;
+    width: 15.6rem;
+    border-radius: 100%; }
+  .productos-store figcaption {
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    text-shadow: -2px -2px 0px black;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 400; }
+  .productos-store div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
 
 footer {
   background-color: rgba(99, 99, 99, 0.76);
