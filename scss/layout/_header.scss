@@ -1,31 +1,78 @@
 header {
-    background-color: rgba(0, 0, 0, 0.26);
-    nav {
-        ul {
+    // background-color: rgba(0, 0, 0, 0.26);
+    // nav {
+    //     ul {
+    //         display: flex;
+    //         flex-flow: row wrap;
+    //         justify-content: center;
+    //         list-style: none;
+    //         gap: 6%;
+    //         width: 100%;
+    
+    //         li {
+    //             list-style: none;
+    
+    //             a {
+    //                 text-decoration: none;
+    //                 font-family: 'Alumni Sans', sans-serif;
+    //                 font-size: 40px;
+    //                 color: white;
+    
+    //                 &:hover {
+    //                     color: rgba(99, 99, 107, 0.797);
+    //                 }
+    //             }
+    
+    //         }
+    //     }
+    // }
+    .menu{
+        width: 100%;
+        ul{
+            list-style: none;
             display: flex;
             flex-flow: row wrap;
             justify-content: center;
             list-style: none;
             gap: 6%;
             width: 100%;
-    
-            li {
-                list-style: none;
-    
-                a {
-                    text-decoration: none;
-                    font-family: 'Alumni Sans', sans-serif;
-                    font-size: 40px;
-                    color: white;
-    
-                    &:hover {
-                        color: rgba(99, 99, 107, 0.797);
-                    }
-                }
-    
+            li{ a{
+                text-decoration: none;
+                color: whitesmoke;    
+                font-family: 'Alumni Sans', sans-serif;
+                font-size: 40px;
+             }
             }
+         }
+      }
+     nav #toggle, nav label{
+        display: none;
+        place-self: center;
+     }
+     @media (max-width: 425px){
+        nav .menu{
+            width: 100%;
+            height: 0;
+            overflow: hidden;
         }
-    }
+        .menu ul{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+        nav label{
+            display: inline-flex;
+            color: white;
+            cursor: pointer;
+            justify-content: space-around;
+        }
+        nav #toggle:checked ~ .menu{
+            height: 100%;
+        }
+     
+     }
+
     h1 {
         font-family: 'Source Serif 4', serif;
         font-size: 60px;
