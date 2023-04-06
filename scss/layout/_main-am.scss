@@ -1,9 +1,11 @@
 .am-principal {
-    background-image: url(/assets/img/Fondo-AM.jpg);
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+.background-img {
+    @include bacgroundimage
+        }
 
 .description {
     display: grid;

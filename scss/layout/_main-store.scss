@@ -1,9 +1,12 @@
 .store-principal {
-    background-image: url(/assets/img/Fondo-store-principal.jpg);
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ }
+ .background-img {
+    @include bacgroundimage
+        }
+
 
 .productos-store {
     display: grid;
@@ -13,8 +16,8 @@
     width: 100%;
 
     img {
-        height: 15.6rem;
-        width: 15.6rem;
+        height: 10.6rem;
+        width: 10.6rem;
         border-radius: 100%;
     }
 

@@ -364,7 +364,7 @@
 
 
  /*Blog*/
- .blog-principal {
+ /* .blog-principal {
      background-image: url(../assets/img/fondo-blog.jpg);
      width: 100%;
      background-size: cover;
@@ -372,7 +372,7 @@
  }
 
  /*Store*/
- .store-principal {
+ /* .store-principal {
      background-image: url(../assets/img/Fondo-store-principal.jpg);
      width: 100%;
      background-repeat: no-repeat;
@@ -403,4 +403,4 @@
     display: flex;
     flex-direction: column;
     align-items: center;
- }
+ } */ 

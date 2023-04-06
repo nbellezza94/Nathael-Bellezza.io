@@ -1,6 +1,11 @@
 .blog-principal {
-    background-image: url(/assets/img/fondo-blog.jpg);
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+
+    .background-img {
+        @include bacgroundimage
+            }
 }
