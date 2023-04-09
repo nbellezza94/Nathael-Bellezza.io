@@ -63,3 +63,16 @@
       }
   }
   
+@media (max-width: 426px){
+    .productos-store {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        width: 100%;
+        img {
+            height: 5.6rem;
+            width: 5.6rem;
+            border-radius: 100%;
+        }
+}
+}

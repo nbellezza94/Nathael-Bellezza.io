@@ -9,3 +9,53 @@ main{
         @include bacgroundimage
             }
 }
+
+main{
+    .fotos {
+        padding: 5rem;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        // grid-template-areas:
+        //     "imagen1 ."
+        //     "desc-img1 ."
+        // ;
+        column-gap: 2%;
+        margin-bottom: 10rem;
+
+        .imagen1 {
+            display: flex;
+            place-self: center end;
+            border-radius: 15%;
+
+        }
+
+        .imagen2 {
+            display: flex;
+            place-self: center end;
+            border-radius: 15%;
+        }
+
+        .desc-img1 {
+            place-self: center;
+        }
+
+        .desc-img2 {
+            place-self: center;
+        }
+
+        p {
+            font-family: 'Alumni Sans', sans-serif;
+            font-size: 30px;
+            font-weight: 400;
+            text-align: left;
+            color: $font-color1;
+            text-shadow: -2px -2px 0px rgb(0, 0, 0);
+            padding: 2rem;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}

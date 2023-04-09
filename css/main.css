@@ -111,6 +111,36 @@ main .background-img {
   /* PARA VER COMO QUEDA    opacity: 0.85; */
   z-index: -1; }
 
+main .fotos {
+  padding: 5rem;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2%;
+  margin-bottom: 10rem; }
+  main .fotos .imagen1 {
+    display: flex;
+    place-self: center end;
+    border-radius: 15%; }
+  main .fotos .imagen2 {
+    display: flex;
+    place-self: center end;
+    border-radius: 15%; }
+  main .fotos .desc-img1 {
+    place-self: center; }
+  main .fotos .desc-img2 {
+    place-self: center; }
+  main .fotos p {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    color: whitesmoke;
+    text-shadow: -2px -2px 0px black;
+    padding: 2rem; }
+  main .fotos img {
+    width: 100%; }
+
 .contacto-principal {
   display: flex;
   flex-direction: column;
@@ -431,3 +461,14 @@ footer {
 @media (max-width: 426px) {
   .formulario {
     width: 75%; } }
+
+@media (max-width: 426px) {
+  .productos-store {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    width: 100%; }
+    .productos-store img {
+      height: 5.6rem;
+      width: 5.6rem;
+      border-radius: 100%; } }
