@@ -1,5 +1,5 @@
 header {
-    // background-color: rgba(0, 0, 0, 0.26);
+background-color: rgba(0, 0, 0, 0.26);
     // nav {
     //     ul {
     //         display: flex;
@@ -38,7 +38,7 @@ header {
             width: 100%;
             li{ a{
                 text-decoration: none;
-                color: whitesmoke;    
+                color: $font-color1;  
                 font-family: 'Alumni Sans', sans-serif;
                 font-size: 40px;
              }
@@ -78,7 +78,7 @@ header {
         font-size: 60px;
         font-weight: 400;
         text-align: center;
-        color: whitesmoke;
+        color: $font-color1;
     }
 }
 
