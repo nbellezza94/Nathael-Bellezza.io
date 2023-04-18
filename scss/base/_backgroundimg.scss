@@ -1,0 +1,14 @@
+main {
+    position: relative;
+    background-position: 50%;
+    height: 100%;
+
+    .background-img {
+        @include bacgroundimage
+    }
+}
+header{
+    .material-icons{
+        font-size: 40px;
+    }
+}

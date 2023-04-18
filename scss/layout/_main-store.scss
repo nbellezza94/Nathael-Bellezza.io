@@ -3,37 +3,41 @@
     flex-direction: column;
     min-height: 100vh;
  }
- .background-img {
-    @include bacgroundimage
+//  .background-img {
+//     @include bacgroundimage
+//         }
+
+.main-store{
+    .productos-store {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        place-items: center;
+        width: 100%;
+        padding: 1rem;
+        margin-top: 15%;
+        min-height: 100vh ;
+    
+        img {
+            height: 10.6rem;
+            width: 10.6rem;
+            border-radius: 100%;
         }
-
-
-.productos-store {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    place-items: center;
-    width: 100%;
-
-    img {
-        height: 10.6rem;
-        width: 10.6rem;
-        border-radius: 100%;
-    }
-
-    figcaption {
-        text-decoration: none;
-        list-style: none;
-        color: $font-color1;
-        text-shadow: -2px -2px 0px rgb(0, 0, 0);
-        font-family: 'Alumni Sans', sans-serif;
-        font-size: 50px;
-        font-weight: 400;
-    }
-
-    div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    
+        figcaption {
+            text-decoration: none;
+            list-style: none;
+            color: $font-color1;
+            text-shadow: -2px -2px 0px rgb(0, 0, 0);
+            font-family: 'Alumni Sans', sans-serif;
+            font-size: 40px;
+            font-weight: 400;
+        }
+    
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }

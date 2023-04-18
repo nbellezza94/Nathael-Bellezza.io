@@ -1,3 +1,4 @@
+// INDEX.HTML
 @media (max-width: 998px) {
     .storeHome{
         .productos {
@@ -9,8 +10,22 @@
     }
     
 }
+// CONTACTO.HTML
 @media (max-width: 768px){
     .formulario{
         width: 40%;
     }
  }
+
+//  ABOUT ME.HTML
+ @media (max-width: 769px){
+    .main-am{
+        .description{
+            .history {
+                font-size: 33px;
+                font-weight: 400;
+                margin-top: 10%;
+            }
+        }
+    }
+}

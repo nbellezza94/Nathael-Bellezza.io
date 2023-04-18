@@ -3,24 +3,29 @@
     flex-direction: column;
     min-height: 100vh;
 }
-.background-img {
-    @include bacgroundimage
+
+.main-am {
+    position: relative;
+    // background-position: 50%;
+    height: 100%;
+
+
+    .description {
+        display: flex;
+        justify-content: center;
+        margin-top: 17%;
+        margin-bottom: 8%;
+
+        .history {
+            font-family: 'Alumni Sans', sans-serif;
+            font-size: 40px;
+            font-weight: 400;
+            grid-area: item1;
+            color: $font-color1;
+            display: flex;
+            text-align: center;
+            width: 50%;
         }
-
-.description {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas:
-        ". item1 .";
-    margin-top: 5%;
-    text-align: center;
-    width: 100%;
-    .history {
-        font-family: 'Alumni Sans', sans-serif;
-        font-size: 40px;
-        font-weight: 400;
-        grid-area: item1;
-        color: $font-color1;
     }
-}
 
+}
