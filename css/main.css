@@ -418,6 +418,10 @@ footer {
     font-weight: 400;
     margin-top: 10%; } }
 
+@media (max-width: 769px) {
+  main .fotos p {
+    font-size: 30px; } }
+
 @media (max-width: 425px) {
   .mainHome .videos {
     display: grid;
@@ -482,13 +486,16 @@ footer {
     .main-store .productos-store img {
       height: 5.6rem;
       width: 5.6rem;
-      border-radius: 100%; } }
+      border-radius: 100%; }
+    .main-store .productos-store .producto-hide {
+      display: none; } }
 
 @media (max-width: 426px) {
   .main-am .description .history {
     font-size: 25px;
     font-weight: 400;
-    margin-top: 20%; } }
+    margin-top: 20%;
+    min-width: 70%; } }
 
 @media (max-width: 321px) {
   .main-am .description .history {
